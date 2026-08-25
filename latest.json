@@ -1,6 +1,6 @@
 {
-  "version": "0.5.1",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.5.1/Synergysoft-SAM-Setup-0.5.1.msi",
-  "sha256": "74D83EC6BE498CBD1F467F54D16D4C748575603E2A4420FBF9D53B105A565693",
-  "releaseNotes": "Fixes updates failing for publishers whose installers change more often than their winget manifest hash (Autodesk in particular) — retries once with --ignore-security-hash specifically when that mismatch is the failure reason. / แก้ปัญหาอัพเดตล้มเหลวสำหรับผู้ผลิตที่ตัวติดตั้งเปลี่ยนบ่อยกว่า hash ที่บันทึกไว้ (โดยเฉพาะ Autodesk) — ระบบจะลองใหม่อัตโนมัติเมื่อเจอปัญหานี้"
+  "version": "0.6.0",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.0/Synergysoft-SAM-Setup-0.6.0.msi",
+  "sha256": "BD1C08A20DACE024ED9E99C4AFB061230F7A039D3D08D4164E0B6D586765E705",
+  "releaseNotes": "New: live progress on the dashboard while a software update is downloading/installing, instead of just seeing 'Installing...' with no detail until it finishes. / ใหม่: เห็นความคืบหน้าแบบสดขณะดาวน์โหลด/ติดตั้งอัพเดตซอฟต์แวร์บนแดชบอร์ด แทนที่จะเห็นแค่ 'Installing...' เฉยๆ จนกว่าจะเสร็จ"
 }

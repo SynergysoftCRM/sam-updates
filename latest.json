@@ -1,6 +1,6 @@
 {
-  "version": "0.4.2",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.4.2/Synergysoft-SAM-Setup-0.4.2.msi",
-  "sha256": "6F96111C9AD9C860EB8FD324BB7916AE5851FC0755A9EE4E21785EE83C4584C8",
-  "releaseNotes": "Fixes the dashboard link: it was pointing to a defunct hosting URL. The dashboard is now hosted on Cloudflare Workers and reachable again. / แก้ลิงก์แดชบอร์ดที่ชี้ไปโฮสต์เก่าที่ใช้งานไม่ได้แล้ว ตอนนี้ย้ายไปโฮสต์บน Cloudflare Workers และเปิดได้ปกติ"
+  "version": "0.5.0",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.5.0/Synergysoft-SAM-Setup-0.5.0.msi",
+  "sha256": "00D4287442B5078BAB85C3AFA879B17F43CB09EE5E224200921014B2F447BEC9",
+  "releaseNotes": "New: per-app and bulk software updates from the dashboard actually work now. The agent service can't launch winget.exe (its App Execution Alias doesn't resolve for a LocalSystem session), so both the software scan and update installs are now delegated to the Tray app, which runs in your interactive session. Installing an update will show a Windows administrator approval prompt. / ใหม่: อัพเดตซอฟต์แวร์ทีละตัวหรือทั้งหมดจากแดชบอร์ดใช้งานได้จริงแล้ว เนื่องจาก agent (LocalSystem) เรียก winget ไม่ได้ ทั้งการสแกนและติดตั้งอัพเดตจะถูกส่งไปทำที่ Tray app แทน จะมีหน้าต่างขอสิทธิ์แอดมินขึ้นตอนติดตั้งอัพเดต"
 }

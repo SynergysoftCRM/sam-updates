@@ -1,6 +1,6 @@
 {
   "version": "0.4.0",
   "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.4.0/Synergysoft-SAM-Setup-0.4.0.msi",
-  "sha256": "22D93EEF0E4A7B6D6EF8337BD5927B17C22FC69EDEA9EE0D74D580DC831F5461",
+  "sha256": "38FBC6BA998E00D63E9BADC4C5796F4EEAE51589A6082BE21E3C322B798F8EC2",
   "releaseNotes": "Silent, unattended self-updates with no UAC prompt, a secure Administrator Access Token for dashboard and remote support login, and automatic tracking of newly launched applications that aren't yet in the software catalog. / อัพเดตอัตโนมัติแบบเงียบไม่ต้องมีหน้าต่างยืนยันสิทธิ์ เพิ่มระบบ Admin Access Token สำหรับเข้าถึงแดชบอร์ดและรีโมทซัพพอร์ตอย่างปลอดภัย และติดตามแอปพลิเคชันใหม่ที่ยังไม่มีในบัญชีซอฟต์แวร์โดยอัตโนมัติ"
 }

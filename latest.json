@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.5.0/Synergysoft-SAM-Setup-0.5.0.msi",
-  "sha256": "00D4287442B5078BAB85C3AFA879B17F43CB09EE5E224200921014B2F447BEC9",
-  "releaseNotes": "New: per-app and bulk software updates from the dashboard actually work now. The agent service can't launch winget.exe (its App Execution Alias doesn't resolve for a LocalSystem session), so both the software scan and update installs are now delegated to the Tray app, which runs in your interactive session. Installing an update will show a Windows administrator approval prompt. / ใหม่: อัพเดตซอฟต์แวร์ทีละตัวหรือทั้งหมดจากแดชบอร์ดใช้งานได้จริงแล้ว เนื่องจาก agent (LocalSystem) เรียก winget ไม่ได้ ทั้งการสแกนและติดตั้งอัพเดตจะถูกส่งไปทำที่ Tray app แทน จะมีหน้าต่างขอสิทธิ์แอดมินขึ้นตอนติดตั้งอัพเดต"
+  "version": "0.5.1",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.5.1/Synergysoft-SAM-Setup-0.5.1.msi",
+  "sha256": "74D83EC6BE498CBD1F467F54D16D4C748575603E2A4420FBF9D53B105A565693",
+  "releaseNotes": "Fixes updates failing for publishers whose installers change more often than their winget manifest hash (Autodesk in particular) — retries once with --ignore-security-hash specifically when that mismatch is the failure reason. / แก้ปัญหาอัพเดตล้มเหลวสำหรับผู้ผลิตที่ตัวติดตั้งเปลี่ยนบ่อยกว่า hash ที่บันทึกไว้ (โดยเฉพาะ Autodesk) — ระบบจะลองใหม่อัตโนมัติเมื่อเจอปัญหานี้"
 }

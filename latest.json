@@ -1,6 +1,6 @@
 {
-  "version": "0.4.1",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.4.1/Synergysoft-SAM-Setup-0.4.1.msi",
-  "sha256": "22038801ECFDEF1E3A107367A3C783EC8AD902046B60E4292614D3FE452DD9BE",
-  "releaseNotes": "Fixes a crash in the agent's software inventory scan: winget.exe is unreachable from a LocalSystem service, which was crashing the entire monitoring cycle every ~5 seconds. The agent now falls back to registry-based results instead of crashing. / แก้บั๊กที่ทำให้ agent ค้าง/รีสตาร์ทวนซ้ำทุก 5 วินาที เนื่องจากเรียก winget.exe ไม่ได้จากสิทธิ์ LocalSystem ตอนนี้จะใช้ผลจาก registry แทนเมื่อ winget ใช้ไม่ได้"
+  "version": "0.4.2",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.4.2/Synergysoft-SAM-Setup-0.4.2.msi",
+  "sha256": "6F96111C9AD9C860EB8FD324BB7916AE5851FC0755A9EE4E21785EE83C4584C8",
+  "releaseNotes": "Fixes the dashboard link: it was pointing to a defunct hosting URL. The dashboard is now hosted on Cloudflare Workers and reachable again. / แก้ลิงก์แดชบอร์ดที่ชี้ไปโฮสต์เก่าที่ใช้งานไม่ได้แล้ว ตอนนี้ย้ายไปโฮสต์บน Cloudflare Workers และเปิดได้ปกติ"
 }

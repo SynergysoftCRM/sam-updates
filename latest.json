@@ -1,6 +1,6 @@
 {
-  "version": "0.6.0",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.0/Synergysoft-SAM-Setup-0.6.0.msi",
-  "sha256": "BD1C08A20DACE024ED9E99C4AFB061230F7A039D3D08D4164E0B6D586765E705",
-  "releaseNotes": "New: live progress on the dashboard while a software update is downloading/installing, instead of just seeing 'Installing...' with no detail until it finishes. / ใหม่: เห็นความคืบหน้าแบบสดขณะดาวน์โหลด/ติดตั้งอัพเดตซอฟต์แวร์บนแดชบอร์ด แทนที่จะเห็นแค่ 'Installing...' เฉยๆ จนกว่าจะเสร็จ"
+  "version": "0.6.1",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.1/Synergysoft-SAM-Setup-0.6.1.msi",
+  "sha256": "E4699591DF466406CFB210E3FCEBA56F76C297B9266A3558FFEA16D24FD8ABA9",
+  "releaseNotes": "Fixes software updates appearing to hang: the Windows administrator approval prompt was being requested from a background timer with no focused window behind it, so Windows sometimes only flashed a small taskbar icon for it instead of bringing it to the front. A notification now points you to it. / แก้ปัญหาที่ดูเหมือนอัพเดตค้าง: หน้าต่างขอสิทธิ์แอดมินของ Windows อาจไม่โผล่มาเด่นชัดเพราะสั่งมาจากพื้นหลัง ตอนนี้จะมีการแจ้งเตือนให้ไปดู"
 }

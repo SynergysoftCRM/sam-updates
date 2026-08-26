@@ -1,6 +1,6 @@
 {
-  "version": "0.7.0",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.0/Synergysoft-SAM-Setup-0.7.0.msi",
-  "sha256": "FA06559EEF02F81D8E5167FB8BB11AAEBA940BF8448FB2A6B1A1B6A5F598B279",
-  "releaseNotes": "New: per-device storage/disk usage is now reported and shown as a Storage card on the web dashboard (drive letters, used vs total space, low-space warnings). / ใหม่: รายงานพื้นที่ดิสก์ของแต่ละเครื่อง แสดงเป็นการ์ด Storage บนแดชบอร์ด (ไดรฟ์, พื้นที่ใช้ไป/ทั้งหมด, แจ้งเตือนเมื่อพื้นที่เหลือน้อย)"
+  "version": "0.7.1",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.1/Synergysoft-SAM-Setup-0.7.1.msi",
+  "sha256": "DD925EEDC7CF05CA8B39936AEB8AF9A0DF70B5DD621638133FB4B9C6D0B5E844",
+  "releaseNotes": "Fix: removed the tray's \"Hide tray icon\" menu item — it fully exited the tray helper (stopping remote support, update checks, and package updates) instead of just hiding the icon as the label implied. / แก้ไข: เอาเมนู \"Hide tray icon\" ออกจาก tray เพราะกดแล้วปิดโปรแกรม tray ทั้งหมด ไม่ใช่แค่ซ่อนไอคอนตามชื่อ"
 }

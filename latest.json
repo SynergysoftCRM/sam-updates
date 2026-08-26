@@ -1,6 +1,6 @@
 {
-  "version": "0.6.4",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.4/Synergysoft-SAM-Setup-0.6.4.msi",
-  "sha256": "1D93C9480C82C877E85DC8A5919DAC152DA91A7B4D05F0E8B948257FB2DEF758",
-  "releaseNotes": "Fixes updates failing with 'the install technology is different from the current version installed' (seen on Epic Online Services and similar apps that switched installer type between versions) — retries automatically with --uninstall-previous. / แก้ปัญหาอัพเดตล้มเหลวเมื่อเจอข้อความ 'install technology is different' (เช่น Epic Online Services) โดย retry อัตโนมัติด้วย --uninstall-previous"
+  "version": "0.6.5",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.5/Synergysoft-SAM-Setup-0.6.5.msi",
+  "sha256": "3FA81B2C2063821E8D8967C738BFADE6EFF4145A75A4F5BF370B872A257012D3",
+  "releaseNotes": "Real fix attempt for the Autodesk hash-mismatch issue: output was being captured via shell redirection (*> file), which makes winget see a non-console stdout handle — winget appears to refuse --ignore-security-hash in that case regardless of elevation, matching every failure seen so far, while the identical command typed directly into a real console (confirmed live) succeeded. Now captures output via winget's own --log file instead, leaving its actual console attachment alone. / แก้ปัญหา hash mismatch ของ Autodesk อีกครั้ง: เดิมจับ output ผ่านการ redirect ของ shell ซึ่งทำให้ winget มองว่าไม่ได้รันบน console จริง เลยปฏิเสธ --ignore-security-hash ไม่ว่าจะ elevate หรือไม่ก็ตาม ตอนนี้เปลี่ยนไปใช้ --log ของ winget เองแทน"
 }

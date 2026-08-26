@@ -1,6 +1,6 @@
 {
-  "version": "0.7.1",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.1/Synergysoft-SAM-Setup-0.7.1.msi",
-  "sha256": "DD925EEDC7CF05CA8B39936AEB8AF9A0DF70B5DD621638133FB4B9C6D0B5E844",
-  "releaseNotes": "Fix: removed the tray's \"Hide tray icon\" menu item — it fully exited the tray helper (stopping remote support, update checks, and package updates) instead of just hiding the icon as the label implied. / แก้ไข: เอาเมนู \"Hide tray icon\" ออกจาก tray เพราะกดแล้วปิดโปรแกรม tray ทั้งหมด ไม่ใช่แค่ซ่อนไอคอนตามชื่อ"
+  "version": "0.7.2",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.2/Synergysoft-SAM-Setup-0.7.2.msi",
+  "sha256": "3AA5A060260BF465661C7F251D4F3E2F73ACBABDA03BF67331E7264D74F995E3",
+  "releaseNotes": "Fix: the tray icon disappearing after every self-update, requiring a manual relaunch from Program Files. The relaunch proxied through explorer.exe with an extra --startup argument that nothing reads — explorer.exe only reliably launches a target when given a single path argument, so the extra token made it silently do nothing. / แก้ไข: ไอคอน tray หายไปหลังอัพเดตทุกครั้ง ต้องเปิดเองจากไฟล์ สาเหตุคือส่ง argument เกินให้ explorer.exe ตอน relaunch ทำให้มันไม่เปิดโปรแกรมให้"
 }

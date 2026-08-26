@@ -1,6 +1,6 @@
 {
-  "version": "0.6.3",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.3/Synergysoft-SAM-Setup-0.6.3.msi",
-  "sha256": "6A3DBC98190B1EF5E03D032FB68965A50E60AFEA3BCAE8F4DCF43EA55B2B12E5",
-  "releaseNotes": "Fixes Autodesk updates for real this time: winget's --ignore-security-hash is gated behind an experimental setting (winget settings --enable InstallerHashOverride, admin-only) that was never enabled, which is why every previous attempt (0.5.1, 0.6.2) failed identically regardless of elevation. Now enables that setting automatically as part of the elevated retry. / แก้ปัญหาการอัพเดต Autodesk จริงๆ รอบนี้: --ignore-security-hash ของ winget ถูกล็อกไว้หลัง setting ทดลอง (ต้องเปิดด้วยสิทธิ์แอดมินก่อน) ซึ่งไม่เคยถูกเปิดมาก่อน ตอนนี้ระบบจะเปิดให้อัตโนมัติเป็นส่วนหนึ่งของการ retry แบบ elevated"
+  "version": "0.6.4",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.4/Synergysoft-SAM-Setup-0.6.4.msi",
+  "sha256": "1D93C9480C82C877E85DC8A5919DAC152DA91A7B4D05F0E8B948257FB2DEF758",
+  "releaseNotes": "Fixes updates failing with 'the install technology is different from the current version installed' (seen on Epic Online Services and similar apps that switched installer type between versions) — retries automatically with --uninstall-previous. / แก้ปัญหาอัพเดตล้มเหลวเมื่อเจอข้อความ 'install technology is different' (เช่น Epic Online Services) โดย retry อัตโนมัติด้วย --uninstall-previous"
 }

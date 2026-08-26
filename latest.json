@@ -1,6 +1,6 @@
 {
-  "version": "0.6.6",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.6/Synergysoft-SAM-Setup-0.6.6.msi",
-  "sha256": "9D6E35F9063373101E7AB72219324FCF9BD64C16379B22F1342EEBED2085C077",
-  "releaseNotes": "Fixes updates failing silently since 0.6.5: winget's --log file was coming back empty (even on success), so every text-based retry decision (hash mismatch, elevation needed, installer technology changed) never fired. Stopped depending on parsed output for control flow — now always includes --ignore-security-hash and --uninstall-previous up front (harmless when not needed) and falls back to an elevated retry on any failure, using exit codes only. / แก้ปัญหาอัพเดตล้มเหลวเงียบๆ ตั้งแต่ 0.6.5: ไฟล์ --log ของ winget ว่างเปล่าแม้ตอนสำเร็จ ทำให้ตรรกะ retry ที่อ่านข้อความไม่เคยทำงาน ตอนนี้ใส่ flag ที่จำเป็นไว้ล่วงหน้าเสมอ และใช้แค่ exit code ในการตัดสินใจ retry แบบ elevated"
+  "version": "0.6.7",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.7/Synergysoft-SAM-Setup-0.6.7.msi",
+  "sha256": "ECD11FEFA805FD0D53E320CB0A940212A6C4D869A2EDC6AF661BBD252BB1F0CB",
+  "releaseNotes": "Root-cause fix for every winget hash-override / elevation issue chased in 0.5.x-0.6.x: the tray relaunches itself after installing a self-update from inside an elevated (runas) script, using a plain Start-Process that inherits that elevation — so the tray has been running elevated permanently after every update since 0.5.0. Relaunch now proxies through explorer.exe so the tray comes back de-elevated like it should. / แก้ต้นตอของปัญหา winget/สิทธิ์แอดมินที่เจอมาตลอดตั้งแต่ 0.5.x: tray รันตัวเองใหม่หลังอัพเดตจากภายในสคริปต์ที่ elevated ทำให้ tray ค้างสิทธิ์แอดมินถาวรตั้งแต่อัพเดตครั้งแรก ตอนนี้แก้ให้กลับมาเป็นสิทธิ์ปกติหลังรีสตาร์ท"
 }

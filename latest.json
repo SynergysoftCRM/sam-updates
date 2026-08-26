@@ -1,6 +1,6 @@
 {
-  "version": "0.6.7",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.7/Synergysoft-SAM-Setup-0.6.7.msi",
-  "sha256": "ECD11FEFA805FD0D53E320CB0A940212A6C4D869A2EDC6AF661BBD252BB1F0CB",
-  "releaseNotes": "Root-cause fix for every winget hash-override / elevation issue chased in 0.5.x-0.6.x: the tray relaunches itself after installing a self-update from inside an elevated (runas) script, using a plain Start-Process that inherits that elevation — so the tray has been running elevated permanently after every update since 0.5.0. Relaunch now proxies through explorer.exe so the tray comes back de-elevated like it should. / แก้ต้นตอของปัญหา winget/สิทธิ์แอดมินที่เจอมาตลอดตั้งแต่ 0.5.x: tray รันตัวเองใหม่หลังอัพเดตจากภายในสคริปต์ที่ elevated ทำให้ tray ค้างสิทธิ์แอดมินถาวรตั้งแต่อัพเดตครั้งแรก ตอนนี้แก้ให้กลับมาเป็นสิทธิ์ปกติหลังรีสตาร์ท"
+  "version": "0.7.0",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.0/Synergysoft-SAM-Setup-0.7.0.msi",
+  "sha256": "FA06559EEF02F81D8E5167FB8BB11AAEBA940BF8448FB2A6B1A1B6A5F598B279",
+  "releaseNotes": "New: per-device storage/disk usage is now reported and shown as a Storage card on the web dashboard (drive letters, used vs total space, low-space warnings). / ใหม่: รายงานพื้นที่ดิสก์ของแต่ละเครื่อง แสดงเป็นการ์ด Storage บนแดชบอร์ด (ไดรฟ์, พื้นที่ใช้ไป/ทั้งหมด, แจ้งเตือนเมื่อพื้นที่เหลือน้อย)"
 }

@@ -1,6 +1,6 @@
 {
-  "version": "0.6.5",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.5/Synergysoft-SAM-Setup-0.6.5.msi",
-  "sha256": "3FA81B2C2063821E8D8967C738BFADE6EFF4145A75A4F5BF370B872A257012D3",
-  "releaseNotes": "Real fix attempt for the Autodesk hash-mismatch issue: output was being captured via shell redirection (*> file), which makes winget see a non-console stdout handle — winget appears to refuse --ignore-security-hash in that case regardless of elevation, matching every failure seen so far, while the identical command typed directly into a real console (confirmed live) succeeded. Now captures output via winget's own --log file instead, leaving its actual console attachment alone. / แก้ปัญหา hash mismatch ของ Autodesk อีกครั้ง: เดิมจับ output ผ่านการ redirect ของ shell ซึ่งทำให้ winget มองว่าไม่ได้รันบน console จริง เลยปฏิเสธ --ignore-security-hash ไม่ว่าจะ elevate หรือไม่ก็ตาม ตอนนี้เปลี่ยนไปใช้ --log ของ winget เองแทน"
+  "version": "0.6.6",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.6/Synergysoft-SAM-Setup-0.6.6.msi",
+  "sha256": "9D6E35F9063373101E7AB72219324FCF9BD64C16379B22F1342EEBED2085C077",
+  "releaseNotes": "Fixes updates failing silently since 0.6.5: winget's --log file was coming back empty (even on success), so every text-based retry decision (hash mismatch, elevation needed, installer technology changed) never fired. Stopped depending on parsed output for control flow — now always includes --ignore-security-hash and --uninstall-previous up front (harmless when not needed) and falls back to an elevated retry on any failure, using exit codes only. / แก้ปัญหาอัพเดตล้มเหลวเงียบๆ ตั้งแต่ 0.6.5: ไฟล์ --log ของ winget ว่างเปล่าแม้ตอนสำเร็จ ทำให้ตรรกะ retry ที่อ่านข้อความไม่เคยทำงาน ตอนนี้ใส่ flag ที่จำเป็นไว้ล่วงหน้าเสมอ และใช้แค่ exit code ในการตัดสินใจ retry แบบ elevated"
 }

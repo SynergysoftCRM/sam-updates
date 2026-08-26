@@ -1,6 +1,6 @@
 {
-  "version": "0.6.1",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.1/Synergysoft-SAM-Setup-0.6.1.msi",
-  "sha256": "E4699591DF466406CFB210E3FCEBA56F76C297B9266A3558FFEA16D24FD8ABA9",
-  "releaseNotes": "Fixes software updates appearing to hang: the Windows administrator approval prompt was being requested from a background timer with no focused window behind it, so Windows sometimes only flashed a small taskbar icon for it instead of bringing it to the front. A notification now points you to it. / แก้ปัญหาที่ดูเหมือนอัพเดตค้าง: หน้าต่างขอสิทธิ์แอดมินของ Windows อาจไม่โผล่มาเด่นชัดเพราะสั่งมาจากพื้นหลัง ตอนนี้จะมีการแจ้งเตือนให้ไปดู"
+  "version": "0.6.2",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.2/Synergysoft-SAM-Setup-0.6.2.msi",
+  "sha256": "012DCB5794F92E7BAB2A3129E91D65BC00DA420964A4E7CFCA3D37FC1E405685",
+  "releaseNotes": "Fixes the Autodesk-hash-mismatch retry from 0.5.1: winget rejects --ignore-security-hash while elevated (dumps its help text instead of an error), so the bypass never actually worked. Updates now try unelevated first — where the flag is honored, and where per-user installs like Fusion don't need elevation anyway — and only escalate to an administrator prompt if that specifically fails for a permissions reason. / แก้ปัญหาที่การข้าม hash check ของ Autodesk (ตั้งแต่ 0.5.1) ไม่ทำงานจริง เพราะ winget ปฏิเสธ flag นี้เวลารันแบบ elevated ตอนนี้จะลองแบบไม่ elevate ก่อน (ซึ่งเป็นที่ที่ flag นี้ใช้ได้จริง และแอปส่วนตัวอย่าง Fusion ก็ไม่ต้องการสิทธิ์แอดมินอยู่แล้ว) แล้วค่อย fallback ไป elevated เฉพาะตอนที่จำเป็นจริงๆ"
 }

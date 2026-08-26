@@ -1,6 +1,6 @@
 {
-  "version": "0.6.2",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.2/Synergysoft-SAM-Setup-0.6.2.msi",
-  "sha256": "012DCB5794F92E7BAB2A3129E91D65BC00DA420964A4E7CFCA3D37FC1E405685",
-  "releaseNotes": "Fixes the Autodesk-hash-mismatch retry from 0.5.1: winget rejects --ignore-security-hash while elevated (dumps its help text instead of an error), so the bypass never actually worked. Updates now try unelevated first — where the flag is honored, and where per-user installs like Fusion don't need elevation anyway — and only escalate to an administrator prompt if that specifically fails for a permissions reason. / แก้ปัญหาที่การข้าม hash check ของ Autodesk (ตั้งแต่ 0.5.1) ไม่ทำงานจริง เพราะ winget ปฏิเสธ flag นี้เวลารันแบบ elevated ตอนนี้จะลองแบบไม่ elevate ก่อน (ซึ่งเป็นที่ที่ flag นี้ใช้ได้จริง และแอปส่วนตัวอย่าง Fusion ก็ไม่ต้องการสิทธิ์แอดมินอยู่แล้ว) แล้วค่อย fallback ไป elevated เฉพาะตอนที่จำเป็นจริงๆ"
+  "version": "0.6.3",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.6.3/Synergysoft-SAM-Setup-0.6.3.msi",
+  "sha256": "6A3DBC98190B1EF5E03D032FB68965A50E60AFEA3BCAE8F4DCF43EA55B2B12E5",
+  "releaseNotes": "Fixes Autodesk updates for real this time: winget's --ignore-security-hash is gated behind an experimental setting (winget settings --enable InstallerHashOverride, admin-only) that was never enabled, which is why every previous attempt (0.5.1, 0.6.2) failed identically regardless of elevation. Now enables that setting automatically as part of the elevated retry. / แก้ปัญหาการอัพเดต Autodesk จริงๆ รอบนี้: --ignore-security-hash ของ winget ถูกล็อกไว้หลัง setting ทดลอง (ต้องเปิดด้วยสิทธิ์แอดมินก่อน) ซึ่งไม่เคยถูกเปิดมาก่อน ตอนนี้ระบบจะเปิดให้อัตโนมัติเป็นส่วนหนึ่งของการ retry แบบ elevated"
 }

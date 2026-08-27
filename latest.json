@@ -1,6 +1,6 @@
 {
-  "version": "0.7.2",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.2/Synergysoft-SAM-Setup-0.7.2.msi",
-  "sha256": "3AA5A060260BF465661C7F251D4F3E2F73ACBABDA03BF67331E7264D74F995E3",
-  "releaseNotes": "Fix: the tray icon disappearing after every self-update, requiring a manual relaunch from Program Files. The relaunch proxied through explorer.exe with an extra --startup argument that nothing reads — explorer.exe only reliably launches a target when given a single path argument, so the extra token made it silently do nothing. / แก้ไข: ไอคอน tray หายไปหลังอัพเดตทุกครั้ง ต้องเปิดเองจากไฟล์ สาเหตุคือส่ง argument เกินให้ explorer.exe ตอน relaunch ทำให้มันไม่เปิดโปรแกรมให้"
+  "version": "0.7.3",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.3/Synergysoft-SAM-Setup-0.7.3.msi",
+  "sha256": "150671EE845576EBEC75DE4F4AF3514029F8B7BCE47F564C19D89964FE214A30",
+  "releaseNotes": "Fix: software updates failing every time with an opaque error and repeatedly prompting for administrator approval with no way to succeed. Root cause: every attempt unconditionally added --uninstall-previous, which forces an uninstall-then-reinstall — when that uninstall step itself failed (e.g. the app was running), the package was left in neither its old nor new version, so the next retry failed too, forever. --uninstall-previous is now only tried as a last resort after a plain elevated upgrade has already failed. Also fixed the unelevated attempt to capture winget's real output directly instead of an unreliable log file, and exit codes are now shown in hex too. / แก้ไข: อัพเดตซอฟต์แวร์ล้มเหลวทุกครั้งพร้อม error ที่อ่านไม่ออก และเด้งขอสิทธิ์แอดมินซ้ำไม่จบ ต้นเหตุคือใส่ --uninstall-previous ทุกครั้งโดยไม่จำเป็น ทำให้พังตอนถอนโปรแกรมเก่าแล้วติดตั้งใหม่ไม่ได้เลย ตอนนี้แก้ให้ใช้ flag นี้เป็นทางเลือกสุดท้ายเท่านั้น"
 }

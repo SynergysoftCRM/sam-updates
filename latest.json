@@ -1,6 +1,6 @@
 {
-  "version": "0.7.4",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.4/Synergysoft-SAM-Setup-0.7.4.msi",
-  "sha256": "2FE0888FB01F9B7AED7D9C390FD73CBEF8592A564F1B19CA1EC1095370224086",
-  "releaseNotes": "Fix: the real cause of updates repeatedly prompting for administrator approval with no way to finish. The shared handoff folder LocalSystem creates in ProgramData did not grant the interactive user (Tray) delete rights on files LocalSystem wrote there — so the Tray's own cleanup of a picked-up update job silently failed, the stale job file never went away, and the same job got reprocessed from scratch (fresh UAC prompt included) forever. The Agent now grants proper access to that folder on startup and self-heals any already-stuck handoff file. / แก้ไข: ต้นตอจริงของปัญหาเด้งขอสิทธิ์แอดมินซ้ำไม่จบ โฟลเดอร์กลางที่ agent กับ tray ใช้ส่งงานกันไม่ได้ให้สิทธิ์ tray ลบไฟล์ที่ agent สร้าง ทำให้งานเดิมค้างและถูกประมวลผลซ้ำตลอดไป ตอนนี้แก้ให้สิทธิ์ถูกต้องและเคลียร์ไฟล์ค้างอัตโนมัติตอน agent เริ่มทำงาน"
+  "version": "0.7.5",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.7.5/Synergysoft-SAM-Setup-0.7.5.msi",
+  "sha256": "84628B81EBFB3146BD49B18CCB6A3D7D1957950D791F3824438E7E1B5277ECA5",
+  "releaseNotes": "Dashboard moved to a new address: https://software-assets-management.synergysoft-sam.workers.dev (was synergysoft-license-intelligence.*). This release updates the tray's \"Open dashboard\" link and the Start Menu shortcut to match. / ย้ายแดชบอร์ดไปที่ URL ใหม่ https://software-assets-management.synergysoft-sam.workers.dev อัพเดตลิงก์ Open dashboard และ Start Menu shortcut ให้ตรงกัน"
 }

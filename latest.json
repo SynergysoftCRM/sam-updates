@@ -1,6 +1,6 @@
 {
-  "version": "0.9.0",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.9.0/Synergysoft-SAM-Setup-0.9.0.msi",
-  "sha256": "BB80EB357972F8770CDE1B5A9A2F1D6220FF64A196D51BB10F114A3A30D95665",
-  "releaseNotes": "Adds the graphics card (GPU) name to Device specs, alongside RAM and Windows version. / เพิ่มชื่อการ์ดจอ (GPU) ในหน้าเครื่อง ควบคู่กับ RAM และเวอร์ชันวินโดวส์"
+  "version": "0.10.0",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.10.0/Synergysoft-SAM-Setup-0.10.0.msi",
+  "sha256": "49F02C61E576AAB9480C9557BD41A21211B298DEB1F7B1BE777441F788210538",
+  "releaseNotes": "Installed software size is now collected and shown in the New software popup on each device's page. / เก็บข้อมูลขนาดไฟล์ของโปรแกรมที่ติดตั้ง แสดงในป็อปอัพ New software ของหน้าเครื่อง"
 }

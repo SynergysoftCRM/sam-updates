@@ -1,6 +1,6 @@
 {
-  "version": "0.8.0",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.8.0/Synergysoft-SAM-Setup-0.8.0.msi",
-  "sha256": "75131ED5E0B10A35B15E3DB17D39DED6C56CF515B350701F58687F25CC0169A1",
-  "releaseNotes": "Adds device specs (RAM + Windows version) and a top-applications-by-usage list to the device page. This update is required for RAM to be reported. / เพิ่มข้อมูลสเปกเครื่อง (RAM + เวอร์ชันวินโดวส์) และรายการแอปที่ใช้งานบ่อยสุดในหน้าเครื่อง ต้องอัปเดตตัวนี้ก่อนถึงจะเห็นข้อมูล RAM"
+  "version": "0.9.0",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.9.0/Synergysoft-SAM-Setup-0.9.0.msi",
+  "sha256": "BB80EB357972F8770CDE1B5A9A2F1D6220FF64A196D51BB10F114A3A30D95665",
+  "releaseNotes": "Adds the graphics card (GPU) name to Device specs, alongside RAM and Windows version. / เพิ่มชื่อการ์ดจอ (GPU) ในหน้าเครื่อง ควบคู่กับ RAM และเวอร์ชันวินโดวส์"
 }

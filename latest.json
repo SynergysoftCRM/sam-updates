@@ -1,6 +1,6 @@
 {
-  "version": "0.10.2",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.10.2/Synergysoft-SAM-Setup-0.10.2.msi",
-  "sha256": "C4F31708EF5A79DF649DB704341A14EB1D7F1CD3335B8C106FD0987730091272",
-  "releaseNotes": "Fixed the self-update process leaving the background Agent service on its old version even after the tray app finished updating: the update script requested the service stop but moved on to reinstall files immediately, without waiting for it to actually finish shutting down, so its files sometimes stayed locked and the update to those files was silently deferred until the next reboot. / แก้ปัญหาการอัปเดตอัตโนมัติที่ทำให้ตัว Agent service เบื้องหลังยังเป็นเวอร์ชันเก่าอยู่ ทั้งที่ตัว tray อัปเดตเสร็จแล้ว: สคริปต์อัปเดตสั่งหยุด service แล้วรีบติดตั้งไฟล์ใหม่ทันทีโดยไม่รอให้ service ปิดตัวเสร็จจริง ทำให้บางครั้งไฟล์ยังถูกล็อกอยู่และการอัปเดตไฟล์เหล่านั้นถูกเลื่อนไปทำตอนรีสตาร์ทเครื่องครั้งถัดไปแทน"
+  "version": "0.10.3",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.10.3/Synergysoft-SAM-Setup-0.10.3.msi",
+  "sha256": "B41952260B3D8B2B006E6AE5D6B7BD5116B56304CB675FFD3004E444C32CE6ED",
+  "releaseNotes": "Fixed the background Agent service silently never updating across any prior release: its installed file's version number was frozen at a fixed value instead of increasing each release, so the installer always saw \"nothing newer\" and skipped replacing it — while the tray app updated normally every time, since its version number was correct. The Agent service could be running code many releases old with no visible error anywhere. / แก้ปัญหา Agent service เบื้องหลังไม่เคยอัปเดตจริงในทุกเวอร์ชันที่ผ่านมา: ไฟล์ที่ติดตั้งมีเลขเวอร์ชันที่ถูกตรึงไว้คงที่แทนที่จะเพิ่มขึ้นทุกครั้งที่ปล่อยเวอร์ชันใหม่ ทำให้ตัวติดตั้งเข้าใจว่า \"ไม่มีอะไรใหม่กว่า\" แล้วข้ามการอัปเดตไปเสมอ ในขณะที่ตัว tray อัปเดตได้ปกติทุกครั้งเพราะเลขเวอร์ชันถูกต้อง ผลคือ Agent service อาจรันโค้ดเก่ากว่าที่ควรหลายเวอร์ชันโดยไม่มี error ใดๆ ให้เห็นเลย"
 }

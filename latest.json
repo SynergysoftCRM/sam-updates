@@ -1,6 +1,6 @@
 {
-  "version": "0.10.1",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.10.1/Synergysoft-SAM-Setup-0.10.1.msi",
-  "sha256": "BF8FFE3FAD981A60C490BA0470312DF5E768B3570F101FB871A8F698CD29F3E1",
-  "releaseNotes": "Fixed a bug where a running app's counted time could silently reset mid-day: the agent occasionally mis-detected an app's name changing (e.g. picking up a coincidental year from a browser tab title) and treated it as a different app closing and reopening. / แก้บั๊กเวลาการทำงานของแอปที่รีเซ็ตกลางวันโดยไม่ทราบสาเหตุ: ตัวเอเจนต์บางครั้งเข้าใจผิดว่าชื่อแอปเปลี่ยน (เช่น จับปีที่บังเอิญปรากฏในชื่อแท็บเบราว์เซอร์) แล้วตีความว่าแอปปิดแล้วเปิดใหม่"
+  "version": "0.10.2",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.10.2/Synergysoft-SAM-Setup-0.10.2.msi",
+  "sha256": "C4F31708EF5A79DF649DB704341A14EB1D7F1CD3335B8C106FD0987730091272",
+  "releaseNotes": "Fixed the self-update process leaving the background Agent service on its old version even after the tray app finished updating: the update script requested the service stop but moved on to reinstall files immediately, without waiting for it to actually finish shutting down, so its files sometimes stayed locked and the update to those files was silently deferred until the next reboot. / แก้ปัญหาการอัปเดตอัตโนมัติที่ทำให้ตัว Agent service เบื้องหลังยังเป็นเวอร์ชันเก่าอยู่ ทั้งที่ตัว tray อัปเดตเสร็จแล้ว: สคริปต์อัปเดตสั่งหยุด service แล้วรีบติดตั้งไฟล์ใหม่ทันทีโดยไม่รอให้ service ปิดตัวเสร็จจริง ทำให้บางครั้งไฟล์ยังถูกล็อกอยู่และการอัปเดตไฟล์เหล่านั้นถูกเลื่อนไปทำตอนรีสตาร์ทเครื่องครั้งถัดไปแทน"
 }

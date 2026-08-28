@@ -1,6 +1,6 @@
 {
-  "version": "0.10.0",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.10.0/Synergysoft-SAM-Setup-0.10.0.msi",
-  "sha256": "49F02C61E576AAB9480C9557BD41A21211B298DEB1F7B1BE777441F788210538",
-  "releaseNotes": "Installed software size is now collected and shown in the New software popup on each device's page. / เก็บข้อมูลขนาดไฟล์ของโปรแกรมที่ติดตั้ง แสดงในป็อปอัพ New software ของหน้าเครื่อง"
+  "version": "0.10.1",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.10.1/Synergysoft-SAM-Setup-0.10.1.msi",
+  "sha256": "BF8FFE3FAD981A60C490BA0470312DF5E768B3570F101FB871A8F698CD29F3E1",
+  "releaseNotes": "Fixed a bug where a running app's counted time could silently reset mid-day: the agent occasionally mis-detected an app's name changing (e.g. picking up a coincidental year from a browser tab title) and treated it as a different app closing and reopening. / แก้บั๊กเวลาการทำงานของแอปที่รีเซ็ตกลางวันโดยไม่ทราบสาเหตุ: ตัวเอเจนต์บางครั้งเข้าใจผิดว่าชื่อแอปเปลี่ยน (เช่น จับปีที่บังเอิญปรากฏในชื่อแท็บเบราว์เซอร์) แล้วตีความว่าแอปปิดแล้วเปิดใหม่"
 }

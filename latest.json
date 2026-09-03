@@ -1,6 +1,6 @@
 {
-  "version": "0.10.3",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.10.3/Synergysoft-SAM-Setup-0.10.3.msi",
-  "sha256": "B41952260B3D8B2B006E6AE5D6B7BD5116B56304CB675FFD3004E444C32CE6ED",
-  "releaseNotes": "Fixed the background Agent service silently never updating across any prior release: its installed file's version number was frozen at a fixed value instead of increasing each release, so the installer always saw \"nothing newer\" and skipped replacing it — while the tray app updated normally every time, since its version number was correct. The Agent service could be running code many releases old with no visible error anywhere. / แก้ปัญหา Agent service เบื้องหลังไม่เคยอัปเดตจริงในทุกเวอร์ชันที่ผ่านมา: ไฟล์ที่ติดตั้งมีเลขเวอร์ชันที่ถูกตรึงไว้คงที่แทนที่จะเพิ่มขึ้นทุกครั้งที่ปล่อยเวอร์ชันใหม่ ทำให้ตัวติดตั้งเข้าใจว่า \"ไม่มีอะไรใหม่กว่า\" แล้วข้ามการอัปเดตไปเสมอ ในขณะที่ตัว tray อัปเดตได้ปกติทุกครั้งเพราะเลขเวอร์ชันถูกต้อง ผลคือ Agent service อาจรันโค้ดเก่ากว่าที่ควรหลายเวอร์ชันโดยไม่มี error ใดๆ ให้เห็นเลย"
+  "version": "0.11.0",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.11.0/Synergysoft-SAM-Setup-0.11.0.msi",
+  "sha256": "29341D130E575DA59B682C1D2573F579040287D5776F9C3116BD0F39885EC2BC",
+  "releaseNotes": "Added application blocking: an administrator can now block a specific program from running, either on one device or company-wide, from the Installed applications table on the device page. The agent checks for blocked programs every 2 minutes and stops any matching one shortly after it launches. / เพิ่มฟีเจอร์บล็อกโปรแกรม: ผู้ดูแลระบบสามารถบล็อกไม่ให้โปรแกรมใดโปรแกรมหนึ่งทำงานได้ ทั้งแบบเฉพาะเครื่องหรือทั้งบริษัท จากตาราง Installed applications ในหน้าอุปกรณ์ ตัว Agent จะตรวจสอบรายการที่ถูกบล็อกทุก 2 นาที และปิดโปรแกรมที่ตรงกันทันทีที่พบว่าเปิดทำงานอยู่"
 }

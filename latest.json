@@ -1,6 +1,6 @@
 {
-  "version": "0.11.0",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.11.0/Synergysoft-SAM-Setup-0.11.0.msi",
-  "sha256": "29341D130E575DA59B682C1D2573F579040287D5776F9C3116BD0F39885EC2BC",
-  "releaseNotes": "Added application blocking: an administrator can now block a specific program from running, either on one device or company-wide, from the Installed applications table on the device page. The agent checks for blocked programs every 2 minutes and stops any matching one shortly after it launches. / เพิ่มฟีเจอร์บล็อกโปรแกรม: ผู้ดูแลระบบสามารถบล็อกไม่ให้โปรแกรมใดโปรแกรมหนึ่งทำงานได้ ทั้งแบบเฉพาะเครื่องหรือทั้งบริษัท จากตาราง Installed applications ในหน้าอุปกรณ์ ตัว Agent จะตรวจสอบรายการที่ถูกบล็อกทุก 2 นาที และปิดโปรแกรมที่ตรงกันทันทีที่พบว่าเปิดทำงานอยู่"
+  "version": "0.11.1",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.11.1/Synergysoft-SAM-Setup-0.11.1.msi",
+  "sha256": "6C3342CBA9D97FA957D6C489F692196151E8940645FFC179EFE12F880CC1C73C",
+  "releaseNotes": "Reduced how often the agent checks in with the server (from every few seconds to every 10-15 minutes) to keep server costs sustainable at larger scale. No visible change in behavior. / ลดความถี่ในการเชื่อมต่อเซิร์ฟเวอร์ของ Agent (จากทุกไม่กี่วินาที เป็นทุก 10-15 นาที) เพื่อควบคุมค่าใช้จ่ายเซิร์ฟเวอร์ให้ยั่งยืนเมื่อมีผู้ใช้งานจำนวนมาก ไม่มีการเปลี่ยนแปลงที่เห็นได้ในการใช้งาน"
 }

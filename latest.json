@@ -1,6 +1,6 @@
 {
-  "version": "0.11.2",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.11.2/Synergysoft-SAM-Setup-0.11.2.msi",
-  "sha256": "DAEF42927C680B0A08F7F49033881A48AA2185032A2E04CBA35C0E9F14E854F9",
-  "releaseNotes": "Fixed software names containing non-English characters (e.g. a Thai language pack) showing as garbled text in the inventory scan, and excluded Windows language packs from the \"Needs update\" count. / แก้ไขปัญหาชื่อโปรแกรมที่มีตัวอักษรที่ไม่ใช่ภาษาอังกฤษ (เช่น Language Pack ภาษาไทย) แสดงผลเป็นตัวอักษรเพี้ยนตอนสแกน และไม่นับ Language Pack ของ Windows ในจำนวน \"Needs update\" อีกต่อไป"
+  "version": "0.11.3",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.11.3/Synergysoft-SAM-Setup-0.11.3.msi",
+  "sha256": "51A5E928FEC2B7D80E45867C12ADD501E6CCBF23F7AE8862F598520E46E0024A",
+  "releaseNotes": "Reduced how much background system noise (Windows components, .NET/Node.js runtimes, startup helpers, etc.) gets logged as software usage — this data was already hidden from reports, but was still being collected and uploaded, adding unnecessary server load. No visible change in behavior. / ลดการบันทึกข้อมูลการใช้งานของโปรแกรมพื้นหลังของระบบ (Windows components, .NET/Node.js runtime, startup helper ฯลฯ) ที่ไม่จำเป็น — ข้อมูลเหล่านี้ถูกซ่อนจากรายงานอยู่แล้ว แต่ยังถูกเก็บและอัปโหลดโดยไม่จำเป็น ทำให้เซิร์ฟเวอร์ทำงานหนักเกินไป ไม่มีการเปลี่ยนแปลงที่เห็นได้ในการใช้งาน"
 }

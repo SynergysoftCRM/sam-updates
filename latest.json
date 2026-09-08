@@ -1,6 +1,6 @@
 {
-  "version": "0.11.1",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.11.1/Synergysoft-SAM-Setup-0.11.1.msi",
-  "sha256": "6C3342CBA9D97FA957D6C489F692196151E8940645FFC179EFE12F880CC1C73C",
-  "releaseNotes": "Reduced how often the agent checks in with the server (from every few seconds to every 10-15 minutes) to keep server costs sustainable at larger scale. No visible change in behavior. / ลดความถี่ในการเชื่อมต่อเซิร์ฟเวอร์ของ Agent (จากทุกไม่กี่วินาที เป็นทุก 10-15 นาที) เพื่อควบคุมค่าใช้จ่ายเซิร์ฟเวอร์ให้ยั่งยืนเมื่อมีผู้ใช้งานจำนวนมาก ไม่มีการเปลี่ยนแปลงที่เห็นได้ในการใช้งาน"
+  "version": "0.11.2",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.11.2/Synergysoft-SAM-Setup-0.11.2.msi",
+  "sha256": "DAEF42927C680B0A08F7F49033881A48AA2185032A2E04CBA35C0E9F14E854F9",
+  "releaseNotes": "Fixed software names containing non-English characters (e.g. a Thai language pack) showing as garbled text in the inventory scan, and excluded Windows language packs from the \"Needs update\" count. / แก้ไขปัญหาชื่อโปรแกรมที่มีตัวอักษรที่ไม่ใช่ภาษาอังกฤษ (เช่น Language Pack ภาษาไทย) แสดงผลเป็นตัวอักษรเพี้ยนตอนสแกน และไม่นับ Language Pack ของ Windows ในจำนวน \"Needs update\" อีกต่อไป"
 }

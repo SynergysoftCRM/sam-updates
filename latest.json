@@ -1,6 +1,6 @@
 {
-  "version": "0.11.3",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.11.3/Synergysoft-SAM-Setup-0.11.3.msi",
-  "sha256": "51A5E928FEC2B7D80E45867C12ADD501E6CCBF23F7AE8862F598520E46E0024A",
-  "releaseNotes": "Reduced how much background system noise (Windows components, .NET/Node.js runtimes, startup helpers, etc.) gets logged as software usage — this data was already hidden from reports, but was still being collected and uploaded, adding unnecessary server load. No visible change in behavior. / ลดการบันทึกข้อมูลการใช้งานของโปรแกรมพื้นหลังของระบบ (Windows components, .NET/Node.js runtime, startup helper ฯลฯ) ที่ไม่จำเป็น — ข้อมูลเหล่านี้ถูกซ่อนจากรายงานอยู่แล้ว แต่ยังถูกเก็บและอัปโหลดโดยไม่จำเป็น ทำให้เซิร์ฟเวอร์ทำงานหนักเกินไป ไม่มีการเปลี่ยนแปลงที่เห็นได้ในการใช้งาน"
+  "version": "0.12.0",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.0/Synergysoft-SAM-Setup-0.12.0.msi",
+  "sha256": "54CD3DF49B0ACD30EA9C708C9B6B113E6741F20F9E38D028565A8741C194592F",
+  "releaseNotes": "Support tickets are now a real two-way chat — reply from the tray's new \"My support tickets\" and see replies from your administrator, with a notification when a new reply arrives. / ระบบ Support เปลี่ยนเป็นแชทโต้ตอบกันได้จริง — ตอบกลับได้จากเมนู \"My support tickets\" ในทรย และเห็นข้อความตอบกลับจากผู้ดูแลระบบ พร้อมแจ้งเตือนเมื่อมีข้อความใหม่"
 }

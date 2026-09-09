@@ -1,6 +1,6 @@
 {
-  "version": "0.12.9",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.9/Synergysoft-SAM-Setup-0.12.9.msi",
-  "sha256": "3BD0C984C7E0B8EC00FD0BC7F701997DBE883A4C892E2D3077159CE326930471",
-  "releaseNotes": "Diagnostic build for the \"My support tickets\" blank screen: the window's title bar now shows a stage number as it loads, so we can see exactly how far it gets even if the content area stays blank. / เวอร์ชันตรวจสอบปัญหาหน้าจอขาวของ \"My support tickets\": แถบหัวข้อหน้าต่างจะโชว์ขั้นตอนที่ทำถึงระหว่างโหลด ช่วยให้รู้ว่าไปถึงจุดไหนแม้เนื้อหาจะยังขึ้นจอขาว"
+  "version": "0.12.10",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.10/Synergysoft-SAM-Setup-0.12.10.msi",
+  "sha256": "DE8C83081C52B59403C10750C74D4810C5F59940DC8C9190FB810F0B4AFFC5A3",
+  "releaseNotes": "Found the actual cause of the \"My support tickets\" blank screen: the chat page was being loaded before the window was ever shown, so the browser never got a valid surface to render into. Fixed the ordering. / เจอสาเหตุจริงของปัญหาหน้าจอขาวใน \"My support tickets\" แล้ว: ระบบโหลดหน้าแชทก่อนที่หน้าต่างจะแสดงผลจริง ทำให้เบราว์เซอร์ไม่มีพื้นที่วาดภาพให้ใช้ แก้ไขลำดับการทำงานแล้ว"
 }

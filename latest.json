@@ -1,6 +1,6 @@
 {
-  "version": "0.12.4",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.4/Synergysoft-SAM-Setup-0.12.4.msi",
-  "sha256": "7CBFA3B1226C2CAC61CDE30C35FF34D04B32C5DEEDDBD99A14F08C27A58EB503",
-  "releaseNotes": "Rebuilt \"My support tickets\" to render as real web-style chat (rounded bubbles, smooth scrolling, proper spacing) instead of native Windows controls — a much closer match to the web dashboard's own look. / ปรับหน้าต่าง \"My support tickets\" ใหม่ทั้งหมดให้แสดงผลแบบเว็บจริงๆ (กล่องแชทมุมมน เลื่อนหน้าจอลื่นไหล ระยะห่างเหมาะสม) แทนที่ Windows control แบบเดิม ให้ดูใกล้เคียงกับเว็บแดชบอร์ดมากขึ้น"
+  "version": "0.12.5",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.5/Synergysoft-SAM-Setup-0.12.5.msi",
+  "sha256": "5A382320A32497BCF95E9C14BF2B14B3D90E838BEB4C9DF8B52B76D7E1EBD9B6",
+  "releaseNotes": "The previous release's WebView2-based chat window could show a blank screen on some computers. Reverted \"My support tickets\" back to the reliable version so tickets and messages always display. / เวอร์ชันก่อนหน้าที่ใช้ WebView2 อาจแสดงหน้าจอว่างเปล่าในบางเครื่อง ย้อนกลับหน้าต่าง \"My support tickets\" ไปใช้เวอร์ชันที่เสถียร แสดงข้อมูล ticket และข้อความได้ตามปกติ"
 }

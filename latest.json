@@ -1,6 +1,6 @@
 {
-  "version": "0.12.0",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.0/Synergysoft-SAM-Setup-0.12.0.msi",
-  "sha256": "54CD3DF49B0ACD30EA9C708C9B6B113E6741F20F9E38D028565A8741C194592F",
-  "releaseNotes": "Support tickets are now a real two-way chat — reply from the tray's new \"My support tickets\" and see replies from your administrator, with a notification when a new reply arrives. / ระบบ Support เปลี่ยนเป็นแชทโต้ตอบกันได้จริง — ตอบกลับได้จากเมนู \"My support tickets\" ในทรย และเห็นข้อความตอบกลับจากผู้ดูแลระบบ พร้อมแจ้งเตือนเมื่อมีข้อความใหม่"
+  "version": "0.12.1",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.1/Synergysoft-SAM-Setup-0.12.1.msi",
+  "sha256": "4C8629C4D535A9133311E636297E054BF4D94C0EFF76D32C860697AA674BAF11",
+  "releaseNotes": "Refreshed the \"Contact support\" window with a modern look and a category picker (Accounts, Error, Features, Installation, License) so tickets are easier to sort at a glance. / ปรับหน้าต่าง \"Contact support\" ให้ดูทันสมัยขึ้น พร้อมเพิ่มตัวเลือกหมวดหมู่ (Accounts, Error, Features, Installation, License) ให้แยกประเภทปัญหาได้ง่ายขึ้น"
 }

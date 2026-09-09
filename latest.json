@@ -1,6 +1,6 @@
 {
-  "version": "0.12.12",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.12/Synergysoft-SAM-Setup-0.12.12.msi",
-  "sha256": "A55BF892F2CBC0FBC3CDECE0C8AB2A3FD9EF3340EAAE78B6B0CD0375A995F485",
-  "releaseNotes": "\"Contact support\" is now rendered the same modern web-based way as \"My support tickets\" — fixes the text-rendering glitches from the old native window and gives both a consistent, professional look. / เปลี่ยนหน้าต่าง \"Contact support\" ให้แสดงผลแบบเว็บทันสมัยเหมือน \"My support tickets\" แก้ปัญหาตัวหนังสือเพี้ยนของหน้าต่างแบบเดิม ให้ทั้งสองหน้าต่างดูเป็นมืออาชีพและสอดคล้องกัน"
+  "version": "0.12.13",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.13/Synergysoft-SAM-Setup-0.12.13.msi",
+  "sha256": "2411FBCFE2AAF84651A94D7F0BD7F6F7AF7F6E46DEAF60FBE3EC73E1523CB828",
+  "releaseNotes": "The \"Program\" field in Contact support is now a searchable dropdown — type to filter the list of installed programs instead of scrolling through all of them. / ช่อง \"Program\" ในหน้าต่าง Contact support พิมพ์ค้นหาโปรแกรมที่ติดตั้งไว้ได้แล้ว ไม่ต้องเลื่อนหารายการยาวๆ อีกต่อไป"
 }

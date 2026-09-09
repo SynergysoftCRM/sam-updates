@@ -1,6 +1,6 @@
 {
-  "version": "0.12.5",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.5/Synergysoft-SAM-Setup-0.12.5.msi",
-  "sha256": "5A382320A32497BCF95E9C14BF2B14B3D90E838BEB4C9DF8B52B76D7E1EBD9B6",
-  "releaseNotes": "The previous release's WebView2-based chat window could show a blank screen on some computers. Reverted \"My support tickets\" back to the reliable version so tickets and messages always display. / เวอร์ชันก่อนหน้าที่ใช้ WebView2 อาจแสดงหน้าจอว่างเปล่าในบางเครื่อง ย้อนกลับหน้าต่าง \"My support tickets\" ไปใช้เวอร์ชันที่เสถียร แสดงข้อมูล ticket และข้อความได้ตามปกติ"
+  "version": "0.12.6",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.6/Synergysoft-SAM-Setup-0.12.6.msi",
+  "sha256": "477EC083A408DA387FF5A8D21D192208A5BF9F844485EE110478A5B448A56C2F",
+  "releaseNotes": "Trying the modern web-style \"My support tickets\" chat again, this time with built-in diagnostics: if it can't run, it now shows exactly why instead of a blank screen. / ทดลองใช้หน้าต่าง \"My support tickets\" แบบใหม่ (ดีไซน์ทันสมัยแบบเว็บ) อีกครั้ง รอบนี้เพิ่มระบบแจ้งเหตุขัดข้อง ถ้าเปิดไม่ได้จะบอกสาเหตุแทนที่จะขึ้นจอว่างเปล่า"
 }

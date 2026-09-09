@@ -1,6 +1,6 @@
 {
-  "version": "0.12.10",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.10/Synergysoft-SAM-Setup-0.12.10.msi",
-  "sha256": "DE8C83081C52B59403C10750C74D4810C5F59940DC8C9190FB810F0B4AFFC5A3",
-  "releaseNotes": "Found the actual cause of the \"My support tickets\" blank screen: the chat page was being loaded before the window was ever shown, so the browser never got a valid surface to render into. Fixed the ordering. / เจอสาเหตุจริงของปัญหาหน้าจอขาวใน \"My support tickets\" แล้ว: ระบบโหลดหน้าแชทก่อนที่หน้าต่างจะแสดงผลจริง ทำให้เบราว์เซอร์ไม่มีพื้นที่วาดภาพให้ใช้ แก้ไขลำดับการทำงานแล้ว"
+  "version": "0.12.11",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.11/Synergysoft-SAM-Setup-0.12.11.msi",
+  "sha256": "34E5DEAFCE9D1FDEC797865FDDE74ECD593947A192D570B4582A9B89A932E65D",
+  "releaseNotes": "Added a program picker to \"Contact support\" — pick which installed program the ticket is about, alongside the category. Shows on the dashboard's Support page too. / เพิ่มช่องเลือกโปรแกรมในหน้าต่าง \"Contact support\" เลือกได้ว่าปัญหาเกี่ยวกับโปรแกรมไหน คู่กับหมวดหมู่ที่มีอยู่แล้ว แสดงผลในหน้า Support บนเว็บแดชบอร์ดด้วย"
 }

@@ -1,6 +1,6 @@
 {
-  "version": "0.12.11",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.11/Synergysoft-SAM-Setup-0.12.11.msi",
-  "sha256": "34E5DEAFCE9D1FDEC797865FDDE74ECD593947A192D570B4582A9B89A932E65D",
-  "releaseNotes": "Added a program picker to \"Contact support\" — pick which installed program the ticket is about, alongside the category. Shows on the dashboard's Support page too. / เพิ่มช่องเลือกโปรแกรมในหน้าต่าง \"Contact support\" เลือกได้ว่าปัญหาเกี่ยวกับโปรแกรมไหน คู่กับหมวดหมู่ที่มีอยู่แล้ว แสดงผลในหน้า Support บนเว็บแดชบอร์ดด้วย"
+  "version": "0.12.12",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.12/Synergysoft-SAM-Setup-0.12.12.msi",
+  "sha256": "A55BF892F2CBC0FBC3CDECE0C8AB2A3FD9EF3340EAAE78B6B0CD0375A995F485",
+  "releaseNotes": "\"Contact support\" is now rendered the same modern web-based way as \"My support tickets\" — fixes the text-rendering glitches from the old native window and gives both a consistent, professional look. / เปลี่ยนหน้าต่าง \"Contact support\" ให้แสดงผลแบบเว็บทันสมัยเหมือน \"My support tickets\" แก้ปัญหาตัวหนังสือเพี้ยนของหน้าต่างแบบเดิม ให้ทั้งสองหน้าต่างดูเป็นมืออาชีพและสอดคล้องกัน"
 }

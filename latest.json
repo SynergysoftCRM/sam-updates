@@ -1,6 +1,6 @@
 {
-  "version": "0.12.6",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.6/Synergysoft-SAM-Setup-0.12.6.msi",
-  "sha256": "477EC083A408DA387FF5A8D21D192208A5BF9F844485EE110478A5B448A56C2F",
-  "releaseNotes": "Trying the modern web-style \"My support tickets\" chat again, this time with built-in diagnostics: if it can't run, it now shows exactly why instead of a blank screen. / ทดลองใช้หน้าต่าง \"My support tickets\" แบบใหม่ (ดีไซน์ทันสมัยแบบเว็บ) อีกครั้ง รอบนี้เพิ่มระบบแจ้งเหตุขัดข้อง ถ้าเปิดไม่ได้จะบอกสาเหตุแทนที่จะขึ้นจอว่างเปล่า"
+  "version": "0.12.7",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.7/Synergysoft-SAM-Setup-0.12.7.msi",
+  "sha256": "E55ABB2E5B7401D59D24D64BC0978510A1E732C153AB23CF3D8635DB30BFABC0",
+  "releaseNotes": "The \"My support tickets\" blank screen was graphics-acceleration failing silently (common on some PCs) — forced software rendering, which should fix it. / แก้ปัญหาหน้าต่าง \"My support tickets\" ขึ้นจอขาว ซึ่งเกิดจากการ์ดจอเร่งความเร็วทำงานผิดพลาดแบบเงียบๆ (พบได้บางเครื่อง) โดยบังคับให้ใช้การเรนเดอร์แบบซอฟต์แวร์แทน"
 }

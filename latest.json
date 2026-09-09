@@ -1,6 +1,6 @@
 {
-  "version": "0.12.2",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.2/Synergysoft-SAM-Setup-0.12.2.msi",
-  "sha256": "1E813FDC1404DC0AB8B765B1BF598EAB59E267E800D27B69F5934D5467C6358A",
-  "releaseNotes": "Redesigned \"My support tickets\" to match the modern look — messages now show as chat bubbles (yours on the left, support's replies on the right), matching the web dashboard's Support page. / ปรับหน้าต่าง \"My support tickets\" ให้ดูทันสมัยขึ้น ข้อความแสดงเป็นกล่องแชท (ของเราอยู่ซ้าย ของฝ่ายซัพพอร์ตอยู่ขวา) ธีมเดียวกับหน้า Support บนเว็บแดชบอร์ด"
+  "version": "0.12.3",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.3/Synergysoft-SAM-Setup-0.12.3.msi",
+  "sha256": "E8B6608F5C692848AB46307296C91E5EFB03E5BE11EA5C376ACBACFEE0D559F2",
+  "releaseNotes": "Fixed the new support chat window: messages were cramped and the oldest message got clipped behind the header. Chat bubbles are now more rounded and the \"you\" bubble uses a visible light-gray fill instead of blending into the white background. / แก้ไขหน้าต่างแชทซัพพอร์ต: ข้อความที่เบียดกันและข้อความแรกที่โดนบังซ่อนอยู่หลังหัวข้อ ปรับกล่องแชทให้มุมมนขึ้นและกล่องข้อความของเราใช้สีเทาอ่อนให้เห็นชัดแทนที่จะกลืนกับพื้นหลังสีขาว"
 }

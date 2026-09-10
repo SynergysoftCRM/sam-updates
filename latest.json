@@ -1,6 +1,6 @@
 {
-  "version": "0.12.14",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.14/Synergysoft-SAM-Setup-0.12.14.msi",
-  "sha256": "D3AED525847F8C82749B80F973E87EA1AC7271F3011A65143CF93C5729BD99A5",
-  "releaseNotes": "Bug-fix and performance release: fixed a bug where a malformed software scan could wipe a device's entire inventory, fixed duplicate notification emails from overlapping checks, reduced several background polling rates, fixed the Connect dialog freezing for up to a minute, and closed a data race in the update-progress writer. / อัปเดตแก้บั๊กและเพิ่มประสิทธิภาพ: แก้บั๊กที่ scan ผิดพลาดอาจลบข้อมูลซอฟต์แวร์ทั้งหมดของเครื่องทิ้ง, แก้ปัญหาอีเมลแจ้งเตือนซ้ำซ้อน, ลดความถี่การเช็คข้อมูลพื้นหลังหลายจุด, แก้ปัญหาหน้าต่าง Connect ค้างได้นานถึง 1 นาที และแก้ปัญหาการเขียนไฟล์ชนกันตอนอัปเดตโปรแกรม"
+  "version": "0.12.15",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.15/Synergysoft-SAM-Setup-0.12.15.msi",
+  "sha256": "7EFF448BA27CEF2468D2AA52ABF3C1165CE5BBE10122527970DC8F44D39C34D3",
+  "releaseNotes": "Follow-up reliability fixes after re-checking v0.12.14: a cron job timeout that was silently failing roughly half of all scheduled notification checks is fixed and verified, a case where the Agent Windows Service could fail to update to the newest binary is fixed, the admin token cleanup now actually runs, a rare app-tracking mixup after a process ID is reused is fixed, and a stale-data flash when quickly switching between device pages is fixed. / อัปเดตแก้ไขความถูกต้องเพิ่มเติมหลังตรวจสอบซ้ำจาก v0.12.14: แก้ปัญหา cron แจ้งเตือนล้มเหลวเงียบๆ ประมาณครึ่งหนึ่งจากปัญหา timeout (ทดสอบยืนยันแล้ว), แก้ปัญหาที่ Agent Windows Service อาจไม่อัปเดตเป็นเวอร์ชันล่าสุด, แก้ไขให้การลบ token เก่าทำงานได้จริง, แก้บั๊กติดตามโปรแกรมผิดตัวเมื่อ process ID ถูกใช้ซ้ำ, และแก้ปัญหาข้อมูลเก่ากระพริบตอนสลับหน้าเครื่องเร็วๆ"
 }

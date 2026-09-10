@@ -1,6 +1,6 @@
 {
-  "version": "0.12.13",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.13/Synergysoft-SAM-Setup-0.12.13.msi",
-  "sha256": "2411FBCFE2AAF84651A94D7F0BD7F6F7AF7F6E46DEAF60FBE3EC73E1523CB828",
-  "releaseNotes": "The \"Program\" field in Contact support is now a searchable dropdown — type to filter the list of installed programs instead of scrolling through all of them. / ช่อง \"Program\" ในหน้าต่าง Contact support พิมพ์ค้นหาโปรแกรมที่ติดตั้งไว้ได้แล้ว ไม่ต้องเลื่อนหารายการยาวๆ อีกต่อไป"
+  "version": "0.12.14",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.14/Synergysoft-SAM-Setup-0.12.14.msi",
+  "sha256": "D3AED525847F8C82749B80F973E87EA1AC7271F3011A65143CF93C5729BD99A5",
+  "releaseNotes": "Bug-fix and performance release: fixed a bug where a malformed software scan could wipe a device's entire inventory, fixed duplicate notification emails from overlapping checks, reduced several background polling rates, fixed the Connect dialog freezing for up to a minute, and closed a data race in the update-progress writer. / อัปเดตแก้บั๊กและเพิ่มประสิทธิภาพ: แก้บั๊กที่ scan ผิดพลาดอาจลบข้อมูลซอฟต์แวร์ทั้งหมดของเครื่องทิ้ง, แก้ปัญหาอีเมลแจ้งเตือนซ้ำซ้อน, ลดความถี่การเช็คข้อมูลพื้นหลังหลายจุด, แก้ปัญหาหน้าต่าง Connect ค้างได้นานถึง 1 นาที และแก้ปัญหาการเขียนไฟล์ชนกันตอนอัปเดตโปรแกรม"
 }

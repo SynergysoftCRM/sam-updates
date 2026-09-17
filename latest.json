@@ -1,34 +1,6 @@
 {
-    "releaseNotes":  {
-                         "value":  "SAM 0.12.19 reduces recurring API requests while preserving local monitoring and remote support polling intervals.\n\n- Idle agent heartbeats include pending software update jobs, avoiding a separate request every ten minutes. Busy agents do not claim additional jobs. Older servers retain the existing fallback.\n- Tray remote support and background reply notifications share one request every two minutes. Notification previews are limited to 121 characters; opening a ticket still retrieves the full conversation.\n- Local software detection remains every five seconds; heartbeat remains every ten minutes; remote support remains every two minutes. Active support chat remains every thirty seconds.\n- The deployed dashboard now negotiates gzip with the backend to reduce response transfer size without truncating usage history.\n- Includes the server-side inventory NUL fix and all prior monitoring fixes.\n\nUnder continuous idle operation with Tray open and chat closed, scheduled requests fall from approximately 60 to 42 per device per hour, excluding inventory uploads, events, administrator actions, restarts, retries and active chat. This is a scheduling estimate, not a guarantee of total billed usage.\n\nRequires the updated SAM backend supporting /api/agent/inbox. Existing 0.12.18 clients remain compatible with that backend, but need this update to use combined requests.\n",
-                         "PSPath":  "C:\\Users\\User\\Desktop\\SAM\\releases\\0.12.19-RELEASE-NOTES.txt",
-                         "PSParentPath":  "C:\\Users\\User\\Desktop\\SAM\\releases",
-                         "PSChildName":  "0.12.19-RELEASE-NOTES.txt",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "Users\\User\\Desktop\\SAM",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\User",
-                                            "Drives":  "C"
-                                        },
-                         "ReadCount":  1
-                     },
-    "sha256":  "6F792F407F90AAEE8B98E0E6F9CF9E32A531E0929EE8F0CC7C3BD7CE0CA88FD2",
-    "version":  "0.12.19",
-    "downloadUrl":  "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.19/Synergysoft-SAM-Setup-0.12.19.msi"
+  "releaseNotes": "SAM 0.12.19 reduces recurring API requests while preserving local monitoring and remote support polling intervals.\n\n- Idle agent heartbeats include pending software update jobs, avoiding a separate request every ten minutes. Busy agents do not claim additional jobs. Older servers retain the existing fallback.\n- Tray remote support and background reply notifications share one request every two minutes. Notification previews are limited to 121 characters; opening a ticket still retrieves the full conversation.\n- Local software detection remains every five seconds; heartbeat remains every ten minutes; remote support remains every two minutes. Active support chat remains every thirty seconds.\n- The deployed dashboard now negotiates gzip with the backend to reduce response transfer size without truncating usage history.\n- Includes the server-side inventory NUL fix and all prior monitoring fixes.\n\nUnder continuous idle operation with Tray open and chat closed, scheduled requests fall from approximately 60 to 42 per device per hour, excluding inventory uploads, events, administrator actions, restarts, retries and active chat. This is a scheduling estimate, not a guarantee of total billed usage.\n\nRequires the updated SAM backend supporting /api/agent/inbox. Existing 0.12.18 clients remain compatible with that backend, but need this update to use combined requests.\n",
+  "sha256": "6F792F407F90AAEE8B98E0E6F9CF9E32A531E0929EE8F0CC7C3BD7CE0CA88FD2",
+  "version": "0.12.19",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.19/Synergysoft-SAM-Setup-0.12.19.msi"
 }

@@ -1,6 +1,6 @@
 {
-  "releaseNotes": "SAM 0.12.21 adds an optional phone number field to Contact support.\n\n- The Report a problem form now collects an optional phone number alongside your name and contact email, included in the case emailed to Synergysoft Support and visible on the case in My support cases and the staff dashboard.\n- Includes all prior fixes from 0.12.20's support case workflow.\n",
-  "sha256": "4716A8154DD639993DBA5878545AF14BC052D2413377C053DB124B78003E5D33",
-  "version": "0.12.21",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.21/Synergysoft-SAM-Setup-0.12.21.msi"
+  "releaseNotes": "SAM 0.12.22 fixes a false-positive in New software detection and redesigns the Tray's My support cases view.\n\n- Software installed via winget's MSIX fallback (e.g. Store-updated apps) no longer reads as a brand-new install on every silent update — the Agent now tracks a stable per-app ID instead of one that embedded the exact version number.\n- The registry's own install date is now used as a cross-check against when we first detected an app.\n- My support cases is redesigned as a compact two-pane list, with a mail-status line per case, click-to-expand detail, and an unread-count badge on the tray icon.\n",
+  "sha256": "AD756786FD294485E8CAAB65C30484325997F7CD22406E3D1E75A7D6B4623CC6",
+  "version": "0.12.22",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.22/Synergysoft-SAM-Setup-0.12.22.msi"
 }

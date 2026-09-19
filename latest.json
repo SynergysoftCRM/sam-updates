@@ -1,6 +1,6 @@
 {
   "releaseNotes": "SAM 0.12.23 hardens the software-update pipeline, makes the Agent's monitoring loop more resilient to transient failures, and gives the installer a cleaner, single-screen setup experience.\n\n- Fixed a validation gap in the software-update pipeline that could let a crafted package id run unintended commands on an enrolled device; update jobs are now checked against the real shape of a winget package id before they're ever accepted.\n- The Agent's offline event queue now recovers on its own from a single corrupted line instead of getting stuck retrying the same bad entry indefinitely.\n- A failing heartbeat or policy check no longer holds up local process detection and blocked-app enforcement for that cycle.\n- Fixed a rare timing issue in the background inventory-scan scheduler.\n- The Agent now recovers gracefully if its local state file is ever corrupted, instead of stopping.\n- Redesigned the installer as a single screen: enter your Company Enrollment Token, accept the terms, and it installs unattended, opening Synergysoft SAM when it's done.\n",
-  "sha256": "4B3703B37BC1200467F96513A6FBC9AE2D82C0966E7E37A0094EE001C0997DE9",
+  "sha256": "5CA0B777BE3E8DDC1D50940F1E93935001FEE31567640FD3A2AA5B8E48ED7513",
   "version": "0.12.23",
   "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.23/SynergysoftAgentSetup-0.12.23.exe"
 }

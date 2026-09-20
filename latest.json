@@ -1,6 +1,6 @@
 {
-  "version": "0.12.25",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.25/Synergysoft-SAM-Setup-0.12.25.msi",
-  "sha256": "DE551B2A3AAB2B6790D740D682DFC8DC351024630D3AC80D890BC6022928CD77",
-  "releaseNotes": "SAM 0.12.25 improves update isolation, monitoring continuity, token recovery, durable offline event queues, MSI service recovery, and company-scoped Intune/GPO deployment. Pilot deployment is recommended before fleet rollout."
+  "version": "0.12.26",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.26/Synergysoft-SAM-Setup-0.12.26.msi",
+  "sha256": "C611E54E95C7E0CD5E56BA730408E542D221CCFFB2201515D4AC398C0EB2F8E8",
+  "releaseNotes": "SAM 0.12.26 adds a graphical setup assistant for single-device installation and company-scoped Intune/GPO packages. The assistant verifies the company and token expiry, writes a private deployment package, and can invoke Microsoft Win32 Content Prep Tool to create .intunewin files. Downloads now supports enrollment-token lifetimes of 1 hour to 7 days. Remote assignment remains in the organization Intune/GPO console."
 }

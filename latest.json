@@ -1,6 +1,6 @@
 {
-    "releaseNotes":  "SAM 0.12.24 secures unattended Agent updates.\n\n- Stage installers and logs under Program Files with a protected ACL allowing only SYSTEM and Administrators.\n- Reject unexpected staging permissions and redirected staging directories.\n- Keep the verified MSI locked against writes and replacement through installer launch; the private ACL continues protecting it when Windows Installer stops the service.\n- Never use installers from the previous user-writable handoff directory.\n- Use the system Windows Installer executable and preserve the payload if an installer wait is cancelled.\n\nValidation: Agent regression tests, actual Windows staging ACL/inheritance checks, standard-user write denial, MSI version and embedded-payload verification. Full end-to-end service upgrade was not exercised in a disposable VM. Installer signing remains unchanged.",
-    "sha256":  "1F465F923E8328725BB35BFE6F5AE833F7B4C1B0210437026FEC3898B7A131F9",
-    "version":  "0.12.24",
-    "downloadUrl":  "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.24/Synergysoft-SAM-Setup-0.12.24.msi"
+  "version": "0.12.25",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.25/Synergysoft-SAM-Setup-0.12.25.msi",
+  "sha256": "DE551B2A3AAB2B6790D740D682DFC8DC351024630D3AC80D890BC6022928CD77",
+  "releaseNotes": "SAM 0.12.25 improves update isolation, monitoring continuity, token recovery, durable offline event queues, MSI service recovery, and company-scoped Intune/GPO deployment. Pilot deployment is recommended before fleet rollout."
 }

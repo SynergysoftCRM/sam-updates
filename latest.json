@@ -1,6 +1,6 @@
 {
-  "version": "0.12.27",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.27/Synergysoft-SAM-Setup-0.12.27.msi",
-  "sha256": "F34F17E678EC0C90F3F536ED526B9FA496AA5696FDA72040ADD6D171F80BACE9",
-  "releaseNotes": "SAM 0.12.27 fixes clipped enterprise installation instructions. Package completion opens a resizable guide window with a single scroll area, starts at the first line, and leaves room below the final line. The guide can be reopened and copied. Includes small-window regression checks for both Intune and GPO."
+  "version": "0.12.28",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.28/Synergysoft-SAM-Setup-0.12.28.msi",
+  "sha256": "D7ADAD641199FBC7ED79864F07D952CCF380AB5174CA847FA67C84B889C44AF2",
+  "releaseNotes": "SAM 0.12.28 changes the Tray's \"My support cases\" window to show only case titles by default. Click into a case to see its full details and status/note history from Synergysoft."
 }

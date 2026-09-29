@@ -1,6 +1,6 @@
 {
-  "version": "0.12.28",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.28/Synergysoft-SAM-Setup-0.12.28.msi",
-  "sha256": "D7ADAD641199FBC7ED79864F07D952CCF380AB5174CA847FA67C84B889C44AF2",
-  "releaseNotes": "SAM 0.12.28 changes the Tray's \"My support cases\" window to show only case titles by default. Click into a case to see its full details and status/note history from Synergysoft."
+  "version": "0.12.29",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.29/Synergysoft-SAM-Setup-0.12.29.msi",
+  "sha256": "4496D2BE2D7105926CC452C66A1402D6575A8036437E36C9AFCE54372BB98B35",
+  "releaseNotes": "SAM 0.12.29 fixes the Tray icon disappearing after a silent update (automatic background self-update or manual click-to-update) and never coming back on its own. Confirmed live: no window appears during a silent update, and the Tray reliably relaunches after a real cross-version upgrade."
 }

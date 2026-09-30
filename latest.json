@@ -1,6 +1,6 @@
 {
-  "version": "0.12.29",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.29/Synergysoft-SAM-Setup-0.12.29.msi",
-  "sha256": "4496D2BE2D7105926CC452C66A1402D6575A8036437E36C9AFCE54372BB98B35",
-  "releaseNotes": "SAM 0.12.29 fixes the Tray icon disappearing after a silent update (automatic background self-update or manual click-to-update) and never coming back on its own. Confirmed live: no window appears during a silent update, and the Tray reliably relaunches after a real cross-version upgrade."
+  "version": "0.12.30",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.30/Synergysoft-SAM-Setup-0.12.30.msi",
+  "sha256": "EF61EDE5DD4AA2FB287C74E90A1FD8290EEE5335EA7E021833C708A5A6E7BE08",
+  "releaseNotes": "SAM 0.12.30 fixes a single failed administrator update job permanently blocking all future update jobs and software inventory uploads until the service was restarted, and fixes a transient file-read failure that could crash the entire Tray process during a package update."
 }

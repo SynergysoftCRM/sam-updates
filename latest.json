@@ -1,6 +1,6 @@
 {
-  "version": "0.12.31",
-  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.31/Synergysoft-SAM-Setup-0.12.31.msi",
-  "sha256": "2783687B1AD300E9377E74FE12F8D9D83F83BB322E093EBA5BD79C54BCC208F0",
-  "releaseNotes": "SAM 0.12.31: an event the server permanently rejects is now dropped instead of blocking the Agent's offline event queue forever, and rejected Agent requests are now visible to Synergysoft staff for diagnosis."
+  "version": "0.12.32",
+  "downloadUrl": "https://github.com/SynergysoftCRM/sam-updates/releases/download/v0.12.32/Synergysoft-SAM-Setup-0.12.32.msi",
+  "sha256": "A7692E95482C30E3C3C87DB024A544082A58A3C4BE69EF0E9228A17BA82B8A78",
+  "releaseNotes": "SAM 0.12.32: stops usage sessions flapping between application and background (which multiplied stored sessions and under-counted usage hours), keeps tracking (as background) when the tray's window snapshot is unavailable instead of silently stopping, and reports tray health to the dashboard."
 }
